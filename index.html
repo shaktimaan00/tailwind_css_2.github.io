@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>tailwind css</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+</head>
+
+<body>
+
+	<header class="text-gray-400 bg-transparent body-font">
+		<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+			<a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+					stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full"
+					viewBox="0 0 24 24">
+					<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+				</svg>
+				<span class="ml-3 text-xl text-gray-800">E-SHIKSHA</span>
+			</a>
+			<nav
+				class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+				<a class="mr-5 hover:text-black cursor-pointer text-gray-600">Home</a>
+				<a class="mr-5 hover:text-black cursor-pointer text-gray-600">Featured</a>
+				<a class="mr-5 hover:text-black cursor-pointer text-gray-600">Pricing</a>
+				<a class="mr-5 hover:text-black cursor-pointer text-gray-600">blogs</a>
+				<a class="mr-5 hover:text-black cursor-pointer text-gray-600">Contact us</a>
+			</nav>
+			<button
+				class="inline-flex items-center bg-blue-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-700 text-white rounded text-base mt-4 md:mt-0">Login
+				<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+					class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+					<path d="M5 12h14M12 5l7 7-7 7"></path>
+				</svg>
+			</button>
+		</div>
+	</header>
+
+	<section class="text-gray-600 body-font">
+		<div class="container px-5 py-24 mx-auto">
+			<div class="flex flex-wrap w-full mb-20">
+				<div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+					<h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Master your Coding with
+						us</h1>
+					<div class="h-1 w-20 bg-blue-500 rounded"></div>
+				</div>
+				<p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon
+					brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard
+					of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+			</div>
+			<div class="flex flex-wrap -m-4">
+				<div class="xl:w-1/4 md:w-1/2 p-4">
+					<div class="bg-gray-100 p-6 rounded-lg">
+						<img class="h-40 rounded w-full object-cover object-center mb-6" src="./images/1.svg.svg"
+							alt="content">
+						<h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">Learn</h3>
+						<h2 class="text-lg text-gray-900 font-medium title-font mb-4">C/C++</h2>
+						<p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat.
+							Distillery hexagon disrupt edison bulbche.</p>
+					</div>
+				</div>
+				<div class="xl:w-1/4 md:w-1/2 p-4">
+					<div class="bg-gray-100 p-6 rounded-lg">
+						<img class="h-40 rounded w-full object-cover object-center mb-6" src="./images/2.svg.svg"
+							alt="content">
+						<h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">Learn</h3>
+						<h2 class="text-lg text-gray-900 font-medium title-font mb-4">JAVA</h2>
+						<p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat.
+							Distillery hexagon disrupt edison bulbche.</p>
+					</div>
+				</div>
+				<div class="xl:w-1/4 md:w-1/2 p-4">
+					<div class="bg-gray-100 p-6 rounded-lg">
+						<img class="h-40 rounded w-full object-cover object-center mb-6" src="./images/3.svg.svg"
+							alt="content">
+						<h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">Learn</h3>
+						<h2 class="text-lg text-gray-900 font-medium title-font mb-4">Python</h2>
+						<p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat.
+							Distillery hexagon disrupt edison bulbche.</p>
+					</div>
+				</div>
+				<div class="xl:w-1/4 md:w-1/2 p-4">
+					<div class="bg-gray-100 p-6 rounded-lg">
+						<img class="h-40 rounded w-full object-cover object-center mb-6" src="./images/4.svg.svg"
+							alt="content">
+						<h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">Learn</h3>
+						<h2 class="text-lg text-gray-900 font-medium title-font mb-4">Javascript</h2>
+						<p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat.
+							Distillery hexagon disrupt edison bulbche.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="text-gray-600 body-font">
+		<div class="container px-5 py-24 mx-auto">
+			<div class="flex flex-col">
+				<div class="h-1 bg-gray-200 rounded overflow-hidden">
+					<div class="w-24 h-full bg-blue-500"></div>
+				</div>
+				<div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+					<h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-4xl mb-2 sm:mb-0">Become top Developer
+					</h1>
+					<p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Street art subway tile salvia four
+						dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu.
+						Viral gochujang bitters dreamcatcher.</p>
+				</div>
+			</div>
+			<div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+				<div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+					<div class="rounded-lg h-64 overflow-hidden">
+						<img alt="content" class="object-cover object-center h-full w-full" src="./images/5.svg.svg">
+					</div>
+					<h2 class="text-xl font-medium title-font text-gray-900 mt-5">App Development</h2>
+					<p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr
+						cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+					<a class="text-blue-500 inline-flex items-center mt-3">Learn More
+						<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+							stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+							<path d="M5 12h14M12 5l7 7-7 7"></path>
+						</svg>
+					</a>
+				</div>
+				<div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+					<div class="rounded-lg h-64 overflow-hidden">
+						<img alt="content" class="object-cover object-center h-full w-full" src="./images/6.svg.svg">
+					</div>
+					<h2 class="text-xl font-medium title-font text-gray-900 mt-5">Front-end Development</h2>
+					<p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr
+						cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+					<a class="text-blue-500 inline-flex items-center mt-3">Learn More
+						<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+							stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+							<path d="M5 12h14M12 5l7 7-7 7"></path>
+						</svg>
+					</a>
+				</div>
+				<div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+					<div class="rounded-lg h-64 overflow-hidden">
+						<img alt="content" class="object-cover object-center h-full w-full" src="./images/7.svg.svg">
+					</div>
+					<h2 class="text-xl font-medium title-font text-gray-900 mt-5">Back-end Development</h2>
+					<p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr
+						cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+					<a class="text-blue-500 inline-flex items-center mt-3">Learn More
+						<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+							stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+							<path d="M5 12h14M12 5l7 7-7 7"></path>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="text-gray-600 body-font">
+		<div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+			<img class="lg:w-1/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
+				src="./images/9.jpg">
+			<div class="text-center lg:w-2/3 w-full">
+				<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">TOP TUTORS</h1>
+				<p class="mb-8 leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
+					tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami
+					snackwave tilde chillwave ugh. Pour-over meditation PBR&amp;B pickled ennui celiac mlkshk freegan
+					photo booth af fingerstache pitchfork.</p>
+				<div class="flex justify-center">
+					<button
+						class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Learn
+						More</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="text-gray-600 body-font">
+		<div class="container px-5 py-24 mx-auto">
+			<div class="flex flex-col text-center w-full mb-20">
+				<h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR TEAM</h1>
+				<p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+					asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.
+				</p>
+			</div>
+			<div class="flex flex-wrap -m-4">
+				<div class="p-4 lg:w-1/2">
+					<div
+						class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+						<img alt="team"
+							class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+							src="./images/9.jpg">
+						<div class="flex-grow sm:pl-8">
+							<h2 class="title-font font-medium text-lg text-gray-900">Holden Caulfield</h2>
+							<h3 class="text-gray-500 mb-3">UI Developer</h3>
+							<p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
+							</p>
+							<span class="inline-flex">
+								<a class="text-gray-500 hover:text-blue-900">
+									<svg fill="none" stroke="currentColor" stroke-linecap="round"
+										stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+										<path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+									</svg>
+								</a>
+								<a class="ml-2 text-gray-500 hover:text-blue-600">
+									<svg fill="none" stroke="currentColor" stroke-linecap="round"
+										stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+										<path
+											d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+										</path>
+									</svg>
+								</a>
+								<a class="ml-2 text-gray-500 hover:text-blue-500">
+									<svg fill="none" stroke="currentColor" stroke-linecap="round"
+										stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+										<path
+											d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+										</path>
+									</svg>
+								</a>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="p-4 lg:w-1/2">
+					<div
+						class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+						<img alt="team"
+							class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+							src="./images/9.jpg">
+						<div class="flex-grow sm:pl-8">
+							<h2 class="title-font font-medium text-lg text-gray-900">Alper Kamu</h2>
+							<h3 class="text-gray-500 mb-3">Designer</h3>
+							<p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
+							</p>
+							<span class="inline-flex">
+								<a class="text-gray-500">
+									<svg fill="none" stroke="currentColor" stroke-linecap="round"
+										stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+										<path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+									</svg>
+								</a>
+								<a class="ml-2 text-gray-500">
+									<svg fill="none" stroke="currentColor" stroke-linecap="round"
+										stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+										<path
+											d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+										</path>
+									</svg>
+								</a>
+								<a class="ml-2 text-gray-500">
+									<svg fill="none" stroke="currentColor" stroke-linecap="round"
+										stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+										<path
+											d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+										</path>
+									</svg>
+								</a>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="flex flex-wrap -m-4">
+					<div class="p-4 lg:w-1/2">
+						<div
+							class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+							<img alt="team"
+								class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+								src="./images/9.jpg">
+							<div class="flex-grow sm:pl-8">
+								<h2 class="title-font font-medium text-lg text-gray-900">Holden Caulfield</h2>
+								<h3 class="text-gray-500 mb-3">UI Developer</h3>
+								<p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
+								</p>
+								<span class="inline-flex">
+									<a class="text-gray-500 hover:text-blue-900">
+										<svg fill="none" stroke="currentColor" stroke-linecap="round"
+											stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+											<path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+										</svg>
+									</a>
+									<a class="ml-2 text-gray-500 hover:text-blue-600">
+										<svg fill="none" stroke="currentColor" stroke-linecap="round"
+											stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+											<path
+												d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+											</path>
+										</svg>
+									</a>
+									<a class="ml-2 text-gray-500 hover:text-blue-500">
+										<svg fill="none" stroke="currentColor" stroke-linecap="round"
+											stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+											<path
+												d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+											</path>
+										</svg>
+									</a>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="p-4 lg:w-1/2">
+						<div
+							class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+							<img alt="team"
+								class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+								src="./images/9.jpg">
+							<div class="flex-grow sm:pl-8">
+								<h2 class="title-font font-medium text-lg text-gray-900">Alper Kamu</h2>
+								<h3 class="text-gray-500 mb-3">Designer</h3>
+								<p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
+								</p>
+								<span class="inline-flex">
+									<a class="text-gray-500">
+										<svg fill="none" stroke="currentColor" stroke-linecap="round"
+											stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+											<path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+										</svg>
+									</a>
+									<a class="ml-2 text-gray-500">
+										<svg fill="none" stroke="currentColor" stroke-linecap="round"
+											stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+											<path
+												d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+											</path>
+										</svg>
+									</a>
+									<a class="ml-2 text-gray-500">
+										<svg fill="none" stroke="currentColor" stroke-linecap="round"
+											stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+											<path
+												d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+											</path>
+										</svg>
+									</a>
+								</span>
+							</div>
+						</div>
+					</div>
+				<div class="flex flex-wrap -m-4">
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
